@@ -1,5 +1,5 @@
 import React from 'react';
-import { HomepageBanner, HomepageCallout } from 'gatsby-theme-carbon';
+import { HomepageBanner } from 'gatsby-theme-carbon';
 import HomepageTemplate from 'gatsby-theme-carbon/src/templates/Homepage';
 
 const BannerText = () => (
@@ -7,22 +7,6 @@ const BannerText = () => (
     An open-source earthquake-alerting project <span className="emphasize">helping people get out of harm's
     way</span>
   </h1>
-);
-
-const SecondLeftText = () => (
-  <p>
-    Wondering how
-    <br />
-    to contribute?
-  </p>
-);
-
-const SecondRightText = () => (
-  <p>
-    We welcome all feedback, designs, or ideas in order to produce the best
-    possible experience for our users. If you’re interested in contributing,
-    check out our contributing guidelines to get started.
-  </p>
 );
 
 const customProps = {
@@ -37,12 +21,8 @@ const customProps = {
     </>
   ),
   SecondCallout: (
-    <HomepageCallout
-      leftText={SecondLeftText}
-      rightText={SecondRightText}
-      color="white"
-      backgroundColor="#001d6c"
-    />
+    <>
+    </>
   ),
 };
 

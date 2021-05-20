@@ -7,3 +7,17 @@ div[class*="Banner-module--grid"] {
 .emphasize {
     color: #9ef0f0;
 }
+
+div[class*="sensors"] {
+    display: flex;
+    justify-content: space-between;
+}
+
+div[class*="cards-container"] {
+    display: flex;
+}
+
+div[class*="sensor-card"] {
+    margin: 10px;
+}
+
